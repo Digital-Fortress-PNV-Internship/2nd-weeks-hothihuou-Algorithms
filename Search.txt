@@ -1,0 +1,123 @@
+I. Introduce
+1. What is Algorithm?
+2. Properties of the algorithm
+3. How to solve the problems
+4. Performance Algorithm
+5. Example
+
+II. Sort Algorithms
+Selection Sort
+2. Insert Sort
+3. Bubble Sort
+III. References
+IV. Demo code
+
+
+I. Introduce
+1. What is Algorithms: 
+- A finite sequence of operations
+- Arrange in a specified order
+ - When performing a series of such operations, from the Input of the problem, we get the Output we need to find.
+
+
+- Can be done by computer,
+- Use: Solve a class of problems or perform a calculation easily, accurately in a short time
+
+2. Algorithm properties
+Input- There should be 0 or more inputs supplied externally to the algorithm.
+Output- There should be atleast 1 output obtained.
+Definiteness- Every step of the algorithm should be clear and well defined.
+Finiteness- The algorithm should have finite number of steps.
+Correctness- Every step of the algorithm must generate a correct output.
+
+
+3. How to solve the problems
+Defined input, output
+Give an idea
+Algorithms
+
+
+4. Performer Algorithms
+- Pseudo Code
+–Flow Chart
+– Code
+
+5. Example 
+
+
+II. Sort Algorithms
+Example: Given any sequence of integers. Arrange the numbers in ascending order?
+*How will you do?
+1. Selection sort
+2. Insert sort
+3. Bubble sort
+
+1. Selection sort
+- Tìm phần tử nhỏ nhất đưa vào vị trí 1
+- Tìm phần tử nhỏ tiếp theo đưa vào vị trí 2
+- Tìm phần tử nhỏ tiếp theo đưa vào vị trí 3
+ 
+2. Insert sort
+- Lặp lại từ arr[1]đến arr [n] trên mảng. 
+- So sánh phần tử hiện tại (khóa) với phần tử liền kề của nó. 
+- Nếu phần tử chính nhỏ hơn phần tử trước của nó, hãy so sánh nó với các phần tử trước đó. Di chuyển các phần tử lớn hơn lên một vị trí để tạo khoảng trống cho phần tử được hoán đổi.
+
+3. Bubble sort
+Duyệt mảng từ phần tử đầu tiên. So sánh mỗi phần tử với phần tử liền trước nó, nếu chúng đứng sai vị trí, ta sẽ đổi chỗ chúng cho nhau. Quá trình này sẽ được dừng nếu các phần tử đã được sắp xếp đúng vị trí.
+
+
+
+III. References
+https://viblo.asia/p/cac-thuat-toan-sap-xep-co-ban-Eb85ooNO52G
+https://www.geeksforgeeks.org/sorting-algorithms/
+https://vn.got-it.ai/blog/thuat-toan-la-gi-hoc-thuat-toan-de-lam-gi
+https://sites.google.com/site/nthanhbanvl/tin-hoc-lop-10/chuong-i/bai-4-bai-toan-va-thuat-toan
+
+
+**** Thêm***
+
+link :https://www.studytonight.com/data-structures/introduction-to-data-structures
+link:https://www.programiz.com/dsa/algorithm
+link:https://www.analyticssteps.com/blogs/what-algorithm-types-applications-characteristics
+link:https://www.educba.com/types-of-algorithms/link:https://www.studytonight.com/data-structures/introduction-to-data-structures
+
+
+CÁch biểu diễn thuật toán:https://iviettech.vn/blog/hoc_thuat_toan/10915-co-ban-ve-thuat-toan-giup-ban-hoc-thuat-toan-don-gian-hon.html
+
+
+
+
+Học thuật toán để làm gì ?
+https://vn.got-it.ai/blog/thuat-toan-la-gi-hoc-thuat-toan-de-lam-gi
+
+** Sơ đồ thuật toán https://sites.google.com/site/nthanhbanvl/tin-hoc-lop-10/chuong-i/bai-4-bai-toan-va-thuat-toan
+
+
+
+ALgorithms
+
+Đệ quy :Learn Recursive Algorithm https://www.geeksforgeeks.org/recursion/
+chia và chinh phục Learn  Divide and Conquer Algorithm
+https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/
+ 
+Lập trình động  Learn Dynamic Programming Algorithms
+https://www.geeksforgeeks.org/overlapping-subproblems-property-in-dynamic-programming-dp-1/
+https://www.youtube.com/watch?v=SS9GjgZB24s
+ 
+ 
+Learn Greedy Algorithm: phương pháp tham lam:ko trình bày
+Được dùng để giải quyết các bài toán tối ưu
+dùng cho giá trị tham khảo của bài toán khác
+
+Thuật toán Brute Force : kiểm tra có trung khớp với dữ liệu mình cần tìm không?
+https://www.freecodecamp.org/news/brute-force-algorithms-explained/
+Thuật toán Backtracking có thể được định nghĩa là một kỹ thuật thuật toán chung xem xét việc tìm kiếm mọi kết hợp có thể có để giải quyết một vấn đề tính toán. 
+Thuật toán được thiết kế dựa trên đệ quy
+Tìm lời giải cho từng bước, ở mỗi bước sẽ chọn ra cấu hình, điều kiện phù hợp và đệ quy. nếu ko tìm thấy cấu hình nào thì quay lại bước trước đó và chọn cấu hình khác
+https://www.geeksforgeeks.org/backtracking-introduction/
+ Thuật toán sắp xếp:https://vnoi.info/wiki/algo/basic/sorting.md
+https://viblo.asia/p/cac-thuat-toan-sap-xep-co-ban-Eb85ooNO52G
+https://www.geeksforgeeks.org/sorting-algorithms/
+ 
+ 
+
